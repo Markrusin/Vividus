@@ -1,6 +1,5 @@
 Scenario: Sign Up
 Given I am on the main application page
-
 When I click on element located `By.xpath((//a[@href='/signup'])[1])`
 When I wait until element located `By.xpath(//input[@type='email'])` appears
 When I enter `<email>` in field located `By.xpath(//input[@type='email'])`
