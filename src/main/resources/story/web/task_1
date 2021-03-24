@@ -18,9 +18,4 @@ Examples:
 |#{generate(regexify '[a-z0-9]{3,5}\@[a-z]{5}\.[a-z]{2,5}')}|John Smith|1234qwer|
 |#{generate(regexify '[a-z0-9]{3,5}\@[a-z]{5}\.[a-z]{2,5}')}|John Smith|1234qwer|
 
-Scenario: use API for Trello Board creation
-
-When I send HTTP POST to the relative URL '?key=a7fac391583468d5e8cc1409e4dba31a&token=e2af569cda88e27efc0335d13469c7b8db5bdf95c9ccb358e9ec3de361a2cae7&name=testDesk'
-Then the response code is equal to '200'
-
 
